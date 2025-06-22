@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSphere - Your Ultimate Shopping Destination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header>
+        <div class="navbar">
+            <div class="logo">Shop<span>Sphere</span></div>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <button>Search</button>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Categories</a>
+                <a href="#">Offers</a>
+            </div>
+            
+            <div class="user-actions">
+                <div class="user-action">
+                    <span>👤</span>
+                    <span>Account</span>
+                </div>
+                <div class="user-action">
+                    <span>❤️</span>
+                    <span>Wishlist</span>
+                </div>
+                <div class="user-action">
+                    <span>🛒</span>
+                    <span>Cart</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Discover Amazing Products</h1>
+        <p>Shop from thousands of products with unbeatable prices and exclusive offers. Get free delivery on orders over ₹499.</p>
+        <button class="cta-button">Start Shopping</button>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <h2 class="section-title">Shop by Categories</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="images/electronics.jpg" alt="Electronics" class="category-img">
+                <div class="category-name">Electronics</div>
+            </div>
+            <div class="category-card">
+                <img src="images/fashion.jpg" alt="Fashion" class="category-img">
+                <div class="category-name">Fashion</div>
+            </div>
+            <div class="category-card">
+                <img src="images/home.jpg" alt="Home" class="category-img">
+                <div class="category-name">Home & Kitchen</div>
+            </div>
+            <div class="category-card">
+                <img src="images/beauty.jpg" alt="Beauty" class="category-img">
+                <div class="category-name">Beauty</div>
+            </div>
+            <div class="category-card">
+                <img src="images/toys.jpg" alt="Toys" class="category-img">
+                <div class="category-name">Toys & Games</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2 class="section-title">Trending Products</h2>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="images/product1.jpg" alt="Wireless Headphones" class="product-img">
+                    <div class="discount-badge">30% OFF</div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Wireless Bluetooth Headphones</h3>
+                    <div class="product-price">
+                        <span class="current-price">₹1,999</span>
+                        <span class="original-price">₹2,999</span>
+                    </div>
+                    <div class="product-rating">
+                        <span>★★★★★</span>
+                        <span>(125)</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="images/product2.jpg" alt="Smart Watch" class="product-img">
+                    <div class="discount-badge">15% OFF</div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Smart Watch with Fitness Tracker</h3>
+                    <div class="product-price">
+                        <span class="current-price">₹3,499</span>
+                        <span class="original-price">₹4,199</span>
+                    </div>
+                    <div class="product-rating">
+                        <span>★★★★☆</span>
+                        <span>(87)</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="images/product3.jpg" alt="Cotton T-Shirt" class="product-img">
+                    <div class="discount-badge">20% OFF</div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Organic Cotton T-Shirt</h3>
+                    <div class="product-price">
+                        <span class="current-price">₹499</span>
+                        <span class="original-price">₹649</span>
+                    </div>
+                    <div class="product-rating">
+                        <span>★★★★★</span>
+                        <span>(210)</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="images/product4.jpg" alt="Running Shoes" class="product-img">
+                    <div class="discount-badge">25% OFF</div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Premium Running Shoes</h3>
+                    <div class="product-price">
+                        <span class="current-price">₹2,899</span>
+                        <span class="original-price">₹3,799</span>
+                    </div>
+                    <div class="product-rating">
+                        <span>★★★★☆</span>
+                        <span>(153)</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-container">
+            <div class="feature-card">
+                <i class="fas fa-shield-alt feature-icon"></i>
+                <h3 class="feature-title">100% Secure Payments</h3>
+                <p class="feature-desc">Safe and secure payment options</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-truck feature-icon"></i>
+                <h3 class="feature-title">Free Delivery</h3>
+                <p class="feature-desc">On orders over ₹499</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-exchange-alt feature-icon"></i>
+                <h3 class="feature-title">Easy Returns</h3>
+                <p class="feature-desc">30-day return policy</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-certificate feature-icon"></i>
+                <h3 class="feature-title">Genuine Products</h3>
+                <p class="feature-desc">Quality guaranteed</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Editor Section -->
+    <section class="image-editor">
+        <h2 class="section-title">Edit Product Images</h2>
+        <div class="editor-container">
+            <input type="file" id="upload-image" accept="image/*">
+            <canvas id="image-canvas"></canvas>
+            <div class="editor-controls">
+                <button id="rotate-left">Rotate Left</button>
+                <button id="rotate-right">Rotate Right</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3 class="footer-logo">Shop<span>Sphere</span></h3>
+                <p class="footer-about">India's fastest growing e-commerce platform with millions of happy customers.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Shop</h3>
+                <ul class="footer-links">
+                    <li><a href="#">All Products</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Featured</a></li>
+                    <li><a href="#">Deals & Offers</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Help</h3>
+                <ul class="footer-links">
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Track Order</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 ShopSphere. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="image-editor.js"></script>
+</body>
+</html>
