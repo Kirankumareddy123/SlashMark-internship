@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Weather Dashboard</h1>
+    <p>Live Weather Forecast for Your City</p>
+  </header>
+
+  <div class="search-box">
+    <input type="text" id="city" placeholder="Enter city">
+    <button onclick="getWeather()">Search</button>
+    <button onclick="getWeatherByLocation()">📍 Use My Location</button>
+  </div>
+
+  <div class="current-weather" id="current">
+    <h2>-- °C</h2>
+    <p>Loading weather data...</p>
+  </div>
+
+  <div class="graph">
+    [Temperature chart will be shown here]
+  </div>
+
+  <div class="daily-forecast" id="forecast">
+    <!-- Forecast cards go here -->
+  </div>
+
+  <footer>
+    &copy; 2025 Weather App | Powered by OpenWeatherMap
+  </footer>
+</body>
+</html>
